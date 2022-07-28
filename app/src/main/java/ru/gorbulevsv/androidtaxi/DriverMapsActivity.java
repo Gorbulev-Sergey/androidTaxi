@@ -23,7 +23,7 @@ public class DriverMapsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_driver_maps);
 
         toolbar = findViewById(R.id.toolbarDriverMaps);
-        toolbar.setTitle(R.string.app_name);
+        toolbar.setTitle("Карта водителя");
         setSupportActionBar(toolbar);
 
         mapview = findViewById(R.id.driverMaps);
