@@ -17,8 +17,26 @@
         tools:context=".MainActivity" />
 
     <com.yandex.mapkit.mapview.MapView
+        android:layout_weight="1"
         android:id="@+id/driverMaps"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textDriverLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"/>
+        <TextView
+            android:id="@+id/textDriverLan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
 
 </LinearLayout>
